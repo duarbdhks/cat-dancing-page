@@ -1,0 +1,49 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Cat body -->
+  <ellipse cx="100" cy="130" rx="45" ry="35" fill="#FF8C42" stroke="#FF6B35" stroke-width="2"/>
+
+  <!-- Cat head -->
+  <circle cx="100" cy="80" r="40" fill="#FF8C42" stroke="#FF6B35" stroke-width="2"/>
+
+  <!-- Cat ears -->
+  <polygon points="75,50 85,25 95,50" fill="#FF8C42" stroke="#FF6B35" stroke-width="2"/>
+  <polygon points="105,50 115,25 125,50" fill="#FF8C42" stroke="#FF6B35" stroke-width="2"/>
+
+  <!-- Inner ears -->
+  <polygon points="78,45 83,32 88,45" fill="#FFB07A"/>
+  <polygon points="112,45 117,32 122,45" fill="#FFB07A"/>
+
+  <!-- Cat eyes -->
+  <ellipse cx="88" cy="75" rx="8" ry="12" fill="#2E7D32"/>
+  <ellipse cx="112" cy="75" rx="8" ry="12" fill="#2E7D32"/>
+
+  <!-- Eye shine -->
+  <ellipse cx="90" cy="72" rx="3" ry="4" fill="#81C784"/>
+  <ellipse cx="114" cy="72" rx="3" ry="4" fill="#81C784"/>
+
+  <!-- Cat nose -->
+  <polygon points="100,85 95,92 105,92" fill="#E91E63"/>
+
+  <!-- Cat mouth -->
+  <path d="M 100 95 Q 92 102 85 98" stroke="#424242" stroke-width="2" fill="none"/>
+  <path d="M 100 95 Q 108 102 115 98" stroke="#424242" stroke-width="2" fill="none"/>
+
+  <!-- Cat whiskers -->
+  <line x1="60" y1="80" x2="75" y2="82" stroke="#424242" stroke-width="2"/>
+  <line x1="60" y1="88" x2="75" y2="88" stroke="#424242" stroke-width="2"/>
+  <line x1="125" y1="82" x2="140" y2="80" stroke="#424242" stroke-width="2"/>
+  <line x1="125" y1="88" x2="140" y2="88" stroke="#424242" stroke-width="2"/>
+
+  <!-- Cat legs -->
+  <rect x="75" y="155" width="12" height="25" fill="#FF8C42" stroke="#FF6B35" stroke-width="2"/>
+  <rect x="93" y="155" width="12" height="25" fill="#FF8C42" stroke="#FF6B35" stroke-width="2"/>
+  <rect x="111" y="155" width="12" height="25" fill="#FF8C42" stroke="#FF6B35" stroke-width="2"/>
+
+  <!-- Cat paws -->
+  <ellipse cx="81" cy="185" rx="8" ry="5" fill="#FF6B35"/>
+  <ellipse cx="99" cy="185" rx="8" ry="5" fill="#FF6B35"/>
+  <ellipse cx="117" cy="185" rx="8" ry="5" fill="#FF6B35"/>
+
+  <!-- Cat tail -->
+  <path d="M 145 130 Q 170 120 175 95 Q 180 70 170 50" stroke="#FF6B35" stroke-width="8" fill="none" stroke-linecap="round"/>
+</svg>
